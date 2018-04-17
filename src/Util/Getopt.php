@@ -77,6 +77,7 @@ class PHPUnit_Util_Getopt
         reset($args);
         array_map('trim', $args);
 
+        //Magdy
         while (list($i, $arg) = each($args)) {
             if ($arg == '') {
                 continue;
